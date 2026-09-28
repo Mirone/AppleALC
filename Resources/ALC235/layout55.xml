@@ -1,38 +1,28 @@
 <dict>
 	<key>LayoutID</key>
-	<integer>86</integer>
+	<integer>55</integer>
 	<key>PathMapRef</key>
 	<array>
 		<dict>
 			<key>CodecID</key>
 			<array>
-				<integer>283902551</integer>
+				<integer>283902517</integer>
 			</array>
 			<key>Headphone</key>
-			<dict>
-				<key>DefaultVolume</key>
-				<integer>4292870144</integer>
-				<key>Headset_dBV</key>
-				<integer>-1055916032</integer>
-			</dict>
+			<dict/>
 			<key>Inputs</key>
 			<array>
-				<string>Mic</string>
 				<string>LineIn</string>
+				<string>Mic</string>
 			</array>
 			<key>IntSpeaker</key>
-			<dict>
-				<key>MaximumBootBeepValue</key>
-				<integer>48</integer>
-				<key>MuteGPIO</key>
-				<integer>0</integer>
-			</dict>
+			<dict/>
 			<key>LineIn</key>
 			<dict>
-				<key>HeadsetMic_dBV</key>
-				<integer>1088421888</integer>
 				<key>MuteGPIO</key>
 				<integer>1342242841</integer>
+				<key>NodeID</key>
+				<integer>25</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -570,10 +560,12 @@
 			</dict>
 			<key>Mic</key>
 			<dict>
-				<key>HeadsetMic_dBV</key>
-				<integer>1088421888</integer>
+				<key>Device</key>
+				<string>IntMic</string>
 				<key>MuteGPIO</key>
 				<integer>0</integer>
+				<key>NodeID</key>
+				<integer>18</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -1115,7 +1107,7 @@
 				<string>Headphone</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>86</integer>
+			<integer>55</integer>
 		</dict>
 	</array>
 </dict>
